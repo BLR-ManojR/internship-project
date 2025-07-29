@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://png.pngtree.com/background/20240507/original/pngtree-digital-retailing-illustration-laptop-keyboard-with-shopping-basket-and-e-commerce-picture-image_8835213.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Login-container {
+    background: #fff;
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+#Login-container h1 {
+    margin-bottom: 30px;
+    color: purple;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.form-group input:focus {
+    border-color: black;
+    box-shadow: 0 0 3px rgba(0,123,255,0.5);
+}
+
+#usernameError,
+#passwordError {
+    display: block;
+    font-size: 13px;
+    color: red;
+    margin-top: 5px;
+}
+
+
+#sub-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: purple;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#sub-btn:hover {
+    background-color: #0056b3;
+}
+
+
+#form-footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+}
+
+#form-footer a {
+    color: purple;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#form-footer a:hover {
+    text-decoration: underline;
+}
+.form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: rgb(59, 58, 58);
+}
+
+.form-options input[type="radio"] {
+    margin-right: 6px;
+}
+
+.forgot-password {
+    text-decoration: none;
+    color: purple;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.forgot-password:hover {
+    color: orangered;
+    text-decoration: underline;
+}
